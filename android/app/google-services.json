@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1055538628819",
+    "project_id": "kharchacheck",
+    "storage_bucket": "kharchacheck.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055538628819:android:8213452f835a937b1bac26",
+        "android_client_info": {
+          "package_name": "com.example.kharcha_check"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuaKIx2z0ifYGya9dowBg_7oMltXbiiOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

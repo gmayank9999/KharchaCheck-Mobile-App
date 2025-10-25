@@ -23,8 +23,10 @@ android {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId = "com.example.kharcha_check"
         // You can update the following values to match your application needs.
-        // For more information, see: https://flutter.dev/to/review-gradle-config.
-        minSdk = flutter.minSdkVersion
+    // For more information, see: https://flutter.dev/to/review-gradle-config.
+    // Firebase (and some other libraries) require a minimum SDK >= 23.
+    // Set explicitly to avoid manifest merge failures when libraries declare higher minSdk.
+    minSdk = 23
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
@@ -42,3 +44,4 @@ android {
 flutter {
     source = "../.."
 }
+apply plugin: 'com.google.gms.google-services'
